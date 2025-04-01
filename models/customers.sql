@@ -41,4 +41,6 @@ final as (
 
 )
 
-select * from final
+select * 
+from final
+where number_of_orders > 0
