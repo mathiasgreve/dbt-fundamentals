@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: stripe
+    description: Stripe db
+    database: dbt-tutorial
+    schema: stripe
+    tables:
+      - name: payment
+        description: payments info
